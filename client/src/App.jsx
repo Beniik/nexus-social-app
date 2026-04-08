@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const API_URL = "http://localhost:5000"; // Замени на адрес после деплоя
+const API_URL = "https://nexus-social-app-n5ia.onrender.com";
 
 function App() {
   const [user, setUser] = useState(() => JSON.parse(localStorage.getItem('user')) || null);
